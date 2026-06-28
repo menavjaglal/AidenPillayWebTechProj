@@ -1,12 +1,26 @@
 body {
   font-family: Verdana, sans-serif;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  min-height: 100vh;
+  min-height: 100vh
+  font-family: Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: azure;
+  color: black;
+  background-image: url("../Assets/RUC-Campus-Blur.png");
+  background-image: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rebeccapurple;;
 }
 
 .profile-container {
