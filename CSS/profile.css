@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.profile-container {
+  background: #fff;
+  width: 500px;
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-header img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 4px solid #2575fc;
+}
+
+.profile-header h2 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.profile-header p {
+  color: #777;
+}
+
+.profile-details {
+  margin-bottom: 20px;
+}
+
+.profile-details h3 {
+  color: #2575fc;
+  margin-bottom: 10px;
+}
+
+.profile-details p {
+  color: #555;
+  line-height: 1.5;
+}
+
+.edit-section h3 {
+  color: #2575fc;
+  margin-bottom: 10px;
+}
+
+.edit-section label {
+  display: block;
+  margin: 8px 0 4px;
+  color: #333;
+}
+
+.edit-section input,
+.edit-section textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.edit-section textarea {
+  resize: none;
+  height: 80px;
+}
+
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background: #2575fc;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #1a5bb8;
+}
+

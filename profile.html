@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="CSS/profile.css">
+</head>
+<body>
+  <div class="profile-container">
+    <div class="profile-header">
+      <img src="Assets/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg" alt="Profile Picture" id="profile-pic">
+      <h2 id="profile-name">Tasheel Sewpaul</h2> 
+       <p>Student</p>
+      <p id="profile-email">tasheels@example.com</p>
+    </div>
+
+    <div class="profile-details">
+      <h3>About Me</h3>
+      <p id="profile-bio">Hello, I am an BSC IT student.</p>
+    </div>
+
+    <div class="edit-section">
+      <h3>Edit Profile</h3>
+      <form id="editForm">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Tasheel Sewpaul">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="tasheels@gmail.com">
+
+        <label for="bio">Bio</label>
+        <textarea id="bio" placeholder="IT Student"></textarea>
+
+        <button type="submit" class="btn">Update Profile</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="profile.js"></script>
+</body>
+</html>
