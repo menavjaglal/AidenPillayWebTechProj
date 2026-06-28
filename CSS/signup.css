@@ -1,10 +1,19 @@
 body {
   font-family: Arial, sans-serif;
-  background: darkblue;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
+  background-color: azure;
+  color: black;
+  background-image: url("../Assets/RUC-Campus-Blur.png");
+  background-image: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rebeccapurple;
 }
 
 .signup-container {
