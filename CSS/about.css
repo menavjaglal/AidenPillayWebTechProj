@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif; 
     margin: 0;
     color: white;
-    background-color: darkblue; /* solid background instead of image */
+    background-color: darkblue; 
 }
 
 nav {
@@ -23,6 +23,18 @@ header, main, footer {
     margin: 20px auto;
 }
 
+
+.logo-title-container {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+}
+
+.logo {
+    width: 50px; 
+    height: auto; 
+}
+
 section {
     background-color: azure;
     padding: 20px;
@@ -31,7 +43,7 @@ section {
 }
 
 .about-container {
-    background-color: #cccccc; /* neutral background */
+    background-color: #cccccc; 
     height: 400px;
     width: 100%;
     display: flex;
@@ -45,6 +57,7 @@ section {
 
 h1 {
     color: red;
+    margin: 0; 
 }
 
 .about-container h2 {
