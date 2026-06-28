@@ -4,14 +4,9 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   min-height: 100vh
-  font-family: Verdana, sans-serif;
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
   background-color: azure;
   color: black;
   background-image: url("../Assets/RUC-Campus-Blur.png");
