@@ -14,7 +14,7 @@ nav {
     background-color: #0d5ca4; 
     padding: 15px;
     display: flex;
-    align-items: center; /* Aligns items vertically to the middle */
+    align-items: center; 
 }
 
 nav a {
@@ -24,7 +24,7 @@ nav a {
     font-weight: bold;
 }
 
-/* Centers the main container text */
+
 .container {
     text-align: center;
     width: 90%;
@@ -32,13 +32,13 @@ nav a {
     margin: 40px auto;
 }
 
-/* Keeps the list items looking neat inside the centered container */
+
 .container ul {
     display: inline-block;
     text-align: left;
 }
 
-/* Aligns the copyright to the bottom right */
+
 footer {
     text-align: right;
     width: 90%;
