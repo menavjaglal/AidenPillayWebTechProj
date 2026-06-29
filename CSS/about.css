@@ -30,10 +30,19 @@ nav a:first-child {
     margin-right: auto;
 }
 
-header, main, footer {
+header, main {
     width: 90%;
     max-width: 1100px;
     margin: 20px auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
 }
 
 .logo-title-container {
