@@ -1,13 +1,17 @@
 body {
   font-family: Verdana, sans-serif; 
   margin: 0;
-  color: white;
+  color: black;
   background-image: url("../Assets/RUC-Campus-Blur.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: rebeccapurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .feed-container {
@@ -34,6 +38,7 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: none;
+  box-sizing: border-box;
 }
 
 button {
